@@ -7,3 +7,8 @@ Total Hired: COUNT([Employee ID])
 Total Active: COUNT(IF ISNULL([Termdate]) THEN [Employee ID] END)
 Total Terminated: COUNT(IF NOT ISNULL([Termdate]) THEN [Employee ID] END)
 ```
+
+- To return which states are HQ else Branch
+```
+CASE [State] WHEN 'New York' THEN 'HQ' ELSE 'Branch' END
+```
