@@ -32,3 +32,10 @@ ELSEIF [Age] >= 45 AND [Age] < 55 THEN '45-54'
 ELSEIF [Age] >=55 THEN '55+'
 END
 ```
+
+- Staus
+```
+IF ISNULL([Termdate]) THEN 'Hired'
+ELSE 'Terminated'
+END
+```
