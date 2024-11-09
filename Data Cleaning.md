@@ -54,3 +54,8 @@ WINDOW_MAX([Total Hired]) = [Total Hired]
 ```
 WINDOW_MAX([% Total Hired]) = [% Total Hired]
 ```
+
+- Top 2
+```
+RANK([% Total Hired]) <= 2
+```
