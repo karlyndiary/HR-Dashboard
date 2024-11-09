@@ -23,7 +23,12 @@ CASE [State] WHEN 'New York' THEN 'HQ' ELSE 'Branch' END
 DATEDIFF('year', [Birthdate], TODAY())
 ```
 
-- Age Group
+- Age Groups
 ```
-
+IF [Age] < 25 THEN '<25' 
+ELSEIF [Age] >= 25 AND [Age] < 35 THEN '25-34'
+ELSEIF [Age] >= 35 AND [Age] < 45 THEN '35-44'
+ELSEIF [Age] >= 45 AND [Age] < 55 THEN '45-54'
+ELSEIF [Age] >=55 THEN '55+'
+END
 ```
