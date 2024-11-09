@@ -17,3 +17,13 @@ CASE [State] WHEN 'New York' THEN 'HQ' ELSE 'Branch' END
 ```
 [Total Hired] / TOTAL([Total Hired])
 ```
+
+- Age
+```
+DATEDIFF('year', [Birthdate], TODAY())
+```
+
+- Age Group
+```
+
+```
