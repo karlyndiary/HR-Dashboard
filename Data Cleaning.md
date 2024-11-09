@@ -12,3 +12,8 @@ Total Terminated: COUNT(IF NOT ISNULL([Termdate]) THEN [Employee ID] END)
 ```
 CASE [State] WHEN 'New York' THEN 'HQ' ELSE 'Branch' END
 ```
+
+- % Total Hired
+```
+[Total Hired] / TOTAL([Total Hired])
+```
