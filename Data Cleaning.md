@@ -18,6 +18,11 @@ CASE [State] WHEN 'New York' THEN 'HQ' ELSE 'Branch' END
 [Total Hired] / TOTAL([Total Hired])
 ```
 
+- % Total Terminated
+```
+[Total Terminated] / TOTAL([Total Terminated])
+```
+
 - Age
 ```
 DATEDIFF('year', [Birthdate], TODAY())
@@ -33,7 +38,7 @@ ELSEIF [Age] >=55 THEN '55+'
 END
 ```
 
-- Staus
+- Status
 ```
 IF ISNULL([Termdate]) THEN 'Hired'
 ELSE 'Terminated'
