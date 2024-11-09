@@ -44,3 +44,8 @@ END
 ```
 WINDOW_MAX([Total Hired]) = [Total Hired]
 ```
+
+- % Highlight Max
+```
+WINDOW_MAX([% Total Hired]) = [% Total Hired]
+```
