@@ -39,3 +39,8 @@ IF ISNULL([Termdate]) THEN 'Hired'
 ELSE 'Terminated'
 END
 ```
+
+- Highlight Max
+```
+WINDOW_MAX([Total Hired]) = [Total Hired]
+```
