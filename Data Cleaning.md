@@ -1,4 +1,5 @@
-- Create Hirerachy for Department and Job title
+## Pre-Processing
+- Create Hierarchy for Department and Job title
 
 ## Calculated Fields
 - Generating to display the total number of hired employees, active employees, and terminated employees.
