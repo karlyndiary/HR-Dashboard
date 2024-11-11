@@ -65,3 +65,8 @@ RANK([% Total Hired]) <= 2
 ```
 RANK([% Total Hired]) <= 1
 ```
+
+- Full Name
+```
+[First Name] + [Last Name]
+```
