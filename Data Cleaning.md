@@ -70,3 +70,10 @@ RANK([% Total Hired]) <= 1
 ```
 [First Name] + '' + [Last Name]
 ```
+
+- Length of Hire
+```
+IF ISNULL([Termdate]) 
+THEN DATEDIFF('year', [Hiredate], TODAY()) 
+END
+```
