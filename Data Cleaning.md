@@ -75,5 +75,6 @@ RANK([% Total Hired]) <= 1
 ```
 IF ISNULL([Termdate]) 
 THEN DATEDIFF('year', [Hiredate], TODAY()) 
+ELSE DATEDIFF('year', [Hiredate], [Termdate]) 
 END
 ```
