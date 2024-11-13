@@ -7,16 +7,22 @@
 * [Recommendations](#recommendations)
 
 # Project Background 
-Maven Roasters is a fictitious coffee shop operating across three locations in New York City. The dataset includes transaction records, timestamps, location details, and product-level information. This project aims to analyze sales performance and customer behavior by examining key metrics such as transaction trends, product performance, and customer order patterns. Through the development of interactive dashboards, the project will provide valuable insights to optimize sales strategies, improve operational efficiency, and enhance customer satisfaction across Maven Roasters' locations.
+The objective of this project is to develop an interactive HR dashboard aimed at empowering HR managers with comprehensive insights into workforce data. This dashboard will provide both high-level summaries for quick overviews and detailed employee records for in-depth analysis, enabling HR teams to uncover key metrics related to employee demographics, performance, retention, and overall workforce trends. This approach will support strategic decision-making, improve workforce planning, and enhance employee engagement across the organization.
 
 Insights and recommendations are provided on the following key areas : 
 
-- **Total Revenue, Orders, AOV, Peak Location**: A comprehensive evaluation of historical sales data, focusing on key metrics such as Total Revenue, Order Volume, Average Order Value (AOV), and the identification of peak sales locations.
+- **Workforce Overview**: Provides a detailed overview of HR trends, focusing on the total number of hired, active, and terminated employees.
+
+- **Departmental and Geographic Distribution**: Analyzes the distribution of employees across different departments and locations, offering insights into workforce concentration and regional presence.
+
+- **Demographics and Performance Analysis**: Examines the demographics, educational backgrounds, and age groups of employees, highlighting performance trends across various education levels and identifying key fluctuations.
+
+- **Compensation and Gender Analysis**: A comparative evaluation of average salaries by gender, education level, average age, and role, providing insights into compensation disparities and organizational equity.
 
 Detailed Resources: 
 
-- The Pre-Processing process utilized can be found [here](https://github.com/karlyndiary/Coffee-Shop-Sales-Analysis/blob/main/EDA.ipynb). 
-- An interactive Streamlit dashboard can be viewed [here](https://coffee-shop-sales-analysis.streamlit.app/).
+- The Pre-Processing process utilized can be found [here](https://github.com/karlyndiary/HR-Dashboard/blob/main/Data%20Cleaning.md). 
+- An interactive Tableau dashboard can be downloaded [here](https://public.tableau.com/app/profile/karen.judelyn.fernandes/viz/HRDashboard_17310526070240/HRSummary?publish=yes).
 
 # Data Structure
 
@@ -26,19 +32,30 @@ HR's database structure as seen below consists of one table: HR Data with 8950 r
 
 ### Overview of Findings 
 
-Total revenue of $698K was generated from 149K orders, with June being the peak month at $166K. Hell's Kitchen led all locations with $236K in revenue, while Barista Espresso topped the product list with $91K in sales. Coffee Beans showed the highest AOV at $22, and Coffee emerged as the most popular category. Sales peak at 10 AM, with steady performance across all weekdays and Gourmet Brewed Coffee leading in popularity.
+The workforce comprises 8,950 employees, with 7,984 active and 966 terminated, spread across seven departments and eight locations, primarily headquartered in New York. Operations is the largest department, and gender distribution is 54% male and 46% female. Bachelor's degree holders form the largest educational group, and performance is strongest among those with bachelor’s and PhD degrees. Female employees with advanced degrees tend to out-earn males, with top earners in finance roles and lowest earners in HR roles.
 
-Below is the overview page from the Streamlit dashboard and more examples are included throughout the report. The interactive dashboard can be viewed [here](https://coffee-shop-sales-analysis.streamlit.app/).
+Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The interactive dashboard can be viewed [here](https://public.tableau.com/app/profile/karen.judelyn.fernandes/viz/HRDashboard_17310526070240/HRSummary?publish=yes).
 
 ### HR Summary Dashboard
-- With total hired employees being 8950, out of which 7984 active employees and 966 terminated employees.
-- There are 7 departments in total with majority of the employees in operations at 2429 hired employees. The least no of employees are in finances and hr departments with 389 and 152 hired employees respectively. The no of terminated employees in all departments are less than 3%.
-- New York is the HQ with a total no of employees being 6270 and 7 other state being the branch with 2680 hired employees. 
-- 54% male and 46% females with 89% hired and 11% terminated in each demographic.
-- 5416 hired employees are from bachelors background, followed by school at 1819 and masters 1237, 478 PhD.
-- 
+- **Workforce Overview**: Out of a total of 8,950 employees hired, 7,984 are currently active, with 966 terminated employees.
 
-![HR Summary](https://github.com/user-attachments/assets/17c71345-09e0-4838-8cd7-9a78c1582d65)
+- **Departmental Distribution**: The company consists of seven departments, with the Operations department employing the highest number of staff (2,429), while the Finance and HR departments have the fewest employees, with 389 and 152, respectively. Terminated employees make up less than 3% in each department.
+
+- **Geographic Spread**: New York, serving as the headquarters, employs the majority with 6,270 employees, while the remaining 2,680 employees are distributed across seven additional branches nationwide.
+
+- **Gender Composition**: The workforce is comprised of 54% male and 46% female employees. Among both demographics, 89% are active employees, and 11% are terminated.
+
+- **Educational Background**: Bachelor’s degree holders make up the largest educational group with 5,416 employees, followed by those with a high school background (1,819), master’s degrees (1,237), and PhDs (478). 
+
+- **Age Group and Education**: The age group 35-44 has the highest concentration of employees with bachelor’s degrees (1,661) and also the highest number of total employees hired (2,764) across all education levels.
+
+- **Performance by Education Level**: Employees with bachelor’s degrees show the strongest performance, with 2,706 classified as "Good," while PhD holders demonstrate excellence with 228 in the "Excellent" category. High school graduates are primarily classified as needing improvement (618) or satisfactory (578).
+
+- **Salary and Gender Disparities**: Female employees with school and bachelor’s level education earn between $61,000 and $66,000 on average, with male employees earning approximately $9,000 more at the bachelor’s level. However, for master’s and PhD holders, females earn an average of $86,000 to $93,000, surpassing their male counterparts, who average around $80,000.
+
+- **Highest and Lowest Salaries**: Finance Managers have the highest average salary at $125,000, with an average age of 49, while HR Assistants earn the lowest average salary at $60,000, with an average age of 37.
+
+![HR Summary](https://github.com/user-attachments/assets/eafcd202-d2b7-46df-96fc-f1a8daa9b8ad)
 
 ### HR Details Dashboard
 
