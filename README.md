@@ -6,7 +6,6 @@
 * [Project Background](#project-background)
 * [Data Structure](#data-structure)
 * [Executive Summary](#executive-summary)
-* [Recommendations](#recommendations)
 
 # Project Background 
 The objective of this project is to develop an interactive HR dashboard aimed at empowering HR managers with comprehensive insights into workforce data. This dashboard will provide both high-level summaries for quick overviews and detailed employee records for in-depth analysis, enabling HR teams to uncover key metrics related to employee demographics, performance, retention, and overall workforce trends. This approach will support strategic decision-making, improve workforce planning, and enhance employee engagement across the organization.
@@ -62,9 +61,3 @@ Below is the overview page from the Tableau dashboard and more examples are incl
 ### HR Details Dashboard
 
 ![HR Details](https://github.com/user-attachments/assets/39ae628c-77d1-443a-9769-8598fd2f28e5)
-
-# Recommendations
-
-Based on the uncovered insights, the following recommendations have been provided : 
-
-- **Target High-Value Products:** Coffee Beans, being the top-performing product, can benefit from a seasonal "Buy One Get One Free" offer. This would encourage bulk purchases, especially during colder months when customers are more likely to brew coffee at home. Introducing this deal a month in advance would help maximize sales.
