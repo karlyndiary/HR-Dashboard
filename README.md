@@ -1,5 +1,7 @@
 # HR Summary & Details Dashboard 
 
+![HR Dashboard](https://github.com/user-attachments/assets/1808f707-f35d-4d51-89b3-7282e70103da)
+
 # Table of Contents
 * [Project Background](#project-background)
 * [Data Structure](#data-structure)
